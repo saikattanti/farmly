@@ -17,6 +17,7 @@ import { useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
 const UserData = () => {
+const UserData = () => {
   const { cartItems } = useSelector((state) => state.cart);
   const { favouriteItems } = useSelector((state) => state.favourite);
   const { user } = useSelector((state) => state.user);
@@ -74,26 +75,13 @@ const UserData = () => {
       name: "Dashboard",
       func: dashboard,
     });
-<<<<<<< HEAD
-  }
-  if (user.role == "Creator") {
-    options.unshift({
-=======
   } else {
     options.shift({
->>>>>>> f4c0be1 (fixed bugs for deploy)
       icon: <DashboardIcon />,
       name: "Dashboard",
       func: dashboard,
     });
   }
-  // if (user.role === "Creator") {
-  //   options.unshift({
-  //     icon: <DashboardIcon />,
-  //     name: "Dashboard",
-  //     func: dashboard,
-  //   });
-  // }
 
   function dashboard() {
     history.push("/dashboard");
