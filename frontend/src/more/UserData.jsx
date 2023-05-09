@@ -74,14 +74,26 @@ const UserData = () => {
       name: "Dashboard",
       func: dashboard,
     });
+<<<<<<< HEAD
   }
   if (user.role == "Creator") {
     options.unshift({
+=======
+  } else {
+    options.shift({
+>>>>>>> f4c0be1 (fixed bugs for deploy)
       icon: <DashboardIcon />,
       name: "Dashboard",
       func: dashboard,
     });
   }
+  // if (user.role === "Creator") {
+  //   options.unshift({
+  //     icon: <DashboardIcon />,
+  //     name: "Dashboard",
+  //     func: dashboard,
+  //   });
+  // }
 
   function dashboard() {
     history.push("/dashboard");
