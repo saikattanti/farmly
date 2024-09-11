@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import Carousel from "react-material-ui-carousel";
-import bg from "../../Assets/background.jpg";
+import bg from "../../Assets/background.png";
 import bg2 from "../../Assets/background2.jpg";
 import ProductCard from "../Products/ProductCard";
 import { useDispatch, useSelector } from "react-redux";
