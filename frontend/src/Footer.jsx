@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../src/Assets/logo.png"
 
 const Footer = () => {
   return (
@@ -9,11 +10,11 @@ const Footer = () => {
     >
       {/* Footer 1st part */}
       <div className="footer1st">
-        <img
+        {/* <img
           alt="logo"
           src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg"
           style={{ cursor: "pointer" }}
-        />
+        /> */}
         <div className="location flex py__10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +28,7 @@ const Footer = () => {
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
           <strong>Address:</strong>
-          <h6>110094 New Delhi, India</h6>
+          <h6>700150 Sonarpur, India</h6>
         </div>
         <div className="location flex py__10">
           <svg
@@ -41,7 +42,7 @@ const Footer = () => {
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
           <strong>Email:</strong>
-          <h6> nestcustomercare@gmail.com</h6>
+          <h6> farmlycustomercare@gmail.com</h6>
         </div>
         <div className="location flex py__10">
           <svg
@@ -55,7 +56,7 @@ const Footer = () => {
             <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
           </svg>
           <strong>Call us:</strong>
-          <h6>+919654370542</h6>
+          <h6>+919883584060</h6>
         </div>
         <div className="location flex py__10">
           <svg

@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import logo from "../../Assets/logo.png"
 
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
@@ -26,7 +27,7 @@ const Header = () => {
         <div className="logo pxy__10">
           <Link to="/">
             <img
-              src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg"
+              src={logo}
               alt=""
               className="logo"
               style={{
@@ -104,7 +105,7 @@ const Header = () => {
             >
               Email:
             </strong>{" "}
-            nestcustomercare@gmail.com
+            farmlycustomercare@gmail.com
           </span>
         </div>
       </div>
