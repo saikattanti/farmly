@@ -99,6 +99,8 @@ const LoginSignup = ({ history, location }) => {
       loginTab.current.classList.add("shiftToLeft");
     }
   };
+
+  
   return (
     <>
       {loading ? (
@@ -185,7 +187,6 @@ const LoginSignup = ({ history, location }) => {
                     onChange={registerDataChange}
                   />
                 </div>
-
                 <div id="registerImage">
                   <img src={avatarPreview} alt="Avatar Preview" />
                   <input
@@ -195,6 +196,19 @@ const LoginSignup = ({ history, location }) => {
                     onChange={registerDataChange}
                   />
                 </div>
+                <div className="options">
+
+                
+                  <div for="role">Choose Your Role:</div>
+
+                    <select name="options" id="cars">
+                      <option value="consumer">Consumer</option>
+                      <option value="farmer">Farmer</option>
+                      <option value="admin">Admin</option>
+                      
+                    </select>
+                  </div>
+                
                 <input type="submit" value="Register" className="signUpBtn" />
               </form>
             </div>
@@ -218,3 +232,4 @@ const LoginSignup = ({ history, location }) => {
 };
 
 export default LoginSignup;
+
