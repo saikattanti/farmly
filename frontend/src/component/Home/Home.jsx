@@ -86,7 +86,7 @@ const Home = () => {
                     color: "#fff",
                   }}
                 >
-                  Fashionable
+                  Fresh Product
                 </h2>
               </div>
               <div>
@@ -96,10 +96,10 @@ const Home = () => {
                     fontWeight: "400",
                     fontFamily: "Poppins,sans-serif",
                     color: "#fff",
-                    lineHeight: ".7",
+                    lineHeight: "1",
                   }}
                 >
-                  Collection
+                  On your door steps
                 </h2>
               </div>
               <div>
@@ -112,7 +112,7 @@ const Home = () => {
                     paddingTop: "10px",
                   }}
                 >
-                  Get Free Shipping on all orders over $5000.00
+                  Get Free Shipping on all orders over 10,000
                 </h2>
               </div>
               <div>
